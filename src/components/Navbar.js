@@ -16,7 +16,7 @@ const Navbar = () => {
         <ul className={click ? "navbar active" : "navbar"}>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/project">Project</Link></li>
+            <li><Link to="/portfolio">Portfolio</Link></li>
             <li><Link to="/contact">Contact</Link></li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

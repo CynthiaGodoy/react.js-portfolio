@@ -24,22 +24,34 @@ ul{
 }
 
 .btn {
-  padding: 12px 32px;
+  padding: 12px 12px;
   font-size: 1rem;
   text-transform: uppercase;
   background: chocolate;
   color: #333;
+  border: 1px solid chocolate;
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.btn-light {
+  padding: 12px 12px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
   border: 1px solid white;
   font-weight: 700;
   cursor: pointer;
 }
 
-.btn-light {
-  background: transparent;
-  color: white;
+.btn:hover{
+  opacity: 100%;
 }
 
-.btn:hover{
-  background: white;
-  opacity: 30%;
+.btn-light:hover{
+  background-color: white;
+  opacity: 70%;
+  color: #333;
 }
