@@ -50,3 +50,20 @@
 .overlay .btn {
     margin: 1rem;
 }
+
+@media screen and (max-width:640px) {
+    .hero p {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .hero h1 {
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .btn-light {
+        font-size: 14px;
+    }
+}
