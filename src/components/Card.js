@@ -9,7 +9,7 @@ const Card = () => {
     return (
     <div className="work-container">
         <h1 className="portfolio-heading">Portfolio</h1>
-        <p className="info">Some of our work</p>
+        <p className="info">Some recent projects</p>
         <div className="portfolio-container">
             {/* <div className="portfolio-card"> */}
                 {CardData.map((val, ind) => {

@@ -1,0 +1,88 @@
+.about-container {
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 2rem;
+    justify-content: center;
+} 
+
+.about-heading {
+    text-align: center;
+    padding-top: 72px;
+    font-size: 28px;
+}
+
+.info {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: chocolate;
+    padding-bottom: 24px;
+}
+
+.about .Bio {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* .about .Bio p {
+    margin: 1rem 0;
+} */
+
+.about .my-picture {
+    max-width: 350px;
+}
+
+.my-picture {
+    /* position: relative;
+    align-items: center; */
+    text-align: center;
+}
+
+.resume {
+    /* position: relative; */
+    /* max-width: 350px; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    align-content: center;
+    width: 100%;
+}
+
+.resume .btn{
+    color: white;
+    text-align: center;
+}
+
+.Bio h1, .Bio p{
+    padding-bottom: 12px;
+}
+
+/* @media screen and (max-width: 1000px) {
+    .about-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(1fr);
+    }
+} */
+
+@media screen and (max-width: 800px) {
+    .about-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+

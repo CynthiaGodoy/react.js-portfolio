@@ -44,13 +44,11 @@ Inside the directory, you can run several commands:
 
 ✅ Sections include: About Me, Portfolio, Contact, Resume.
 
-✅ The `About Me` section is the first page by default that includes a photo of the developer.
+✅ The `About Me` section is the first page by default that includes a photo of the developer. The `Resume` button contains a downloadable resume and a list of developers proficiencies.
 
 ✅ The `Portfolio` section includes 6 of the developer's applications with links to both the deployed application and the GitHub Repositories.
 
 ✅ The `Contact` section contains a contact form with fields for name, email address, and a message. A cursor over the field will indicate that the field is required. If invalid email is entered into the form the user will recieve notification that that the email is invalid. **Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't save this information right now.
-
-✅ The `Resume` section contains a downloadable resume and a list of developers proficiencies.
 
 ✅ The `Footer` section contains the icon links to the developer's GitHub, Linkedin, and a profile to a third platform.
 
