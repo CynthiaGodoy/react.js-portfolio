@@ -48,6 +48,7 @@ ul{
 
 .btn:hover{
   opacity: 100%;
+  color: white;
 }
 
 .btn-light:hover{
