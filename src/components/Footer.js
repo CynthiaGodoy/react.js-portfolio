@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-container">
                 <div className="contactInfo">
-                <h4>Get in Touch!</h4>
+                <h4>Get in Touch! </h4>
                     <div className="location">
                         <FaHome size={18} style={{ color: "white", marginRight: "1rem" }} /><p>Denver, Colorado</p>
                     </div>
@@ -20,6 +20,7 @@ const Footer = () => {
                         <FaMailBulk size={18} style={{ color: "white", marginRight: "1rem" }} /><p>Cynthia@ck-interiors.com</p>
                     </div>
                 </div>
+                
                 <div className="social">
                     <h4>Social Media | More About Me</h4>
                     <p>From Interior Designer to Software Developer. Educated in full-stack development from the University of Denver. </p>

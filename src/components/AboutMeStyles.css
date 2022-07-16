@@ -29,60 +29,48 @@
     padding: 1rem;
 }
 
-/* .about .Bio p {
-    margin: 1rem 0;
-} */
-
 .about .my-picture {
     max-width: 350px;
 }
 
 .my-picture {
-    /* position: relative;
-    align-items: center; */
     text-align: center;
 }
 
 .resume {
-    /* position: relative; */
-    /* max-width: 350px; */
-    /* width: 100%; */
+    width: 60%;
+    margin-left: 20%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* text-align: center; */
-    align-content: center;
-    width: 100%;
+    align-items: center !important;
+    
 }
 
 .resume .btn{
     color: white;
     text-align: center;
+    padding-right: 1px;
 }
 
 .Bio h1, .Bio p{
     padding-bottom: 12px;
 }
 
-/* @media screen and (max-width: 1000px) {
-    .about-container {
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: repeat(1fr);
-    }
-} */
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .about-container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
     }
+    .resume {
+        margin-left: 31%;
+        width: 40%;
+    }
 }
 
-
-
-
-
-
-
+@media screen and (max-width: 600px) {
+    .resume {
+        margin-left: 20%;
+        width: 60%;
+    }
+}
