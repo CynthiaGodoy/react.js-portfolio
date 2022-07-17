@@ -1,3 +1,7 @@
+.container {
+    background-color: whitesmoke;
+}
+
 .about-container {
     max-width: 950px;
     margin: auto;
@@ -43,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center !important;
-    
+    padding-top: 10px;
 }
 
 .resume .btn{
@@ -58,7 +62,7 @@
 
 @media screen and (max-width: 900px) {
     .about-container {
-        max-width: 90%;
+        max-width: 80%;
         margin: auto;
         grid-template-columns: 1fr;
     }

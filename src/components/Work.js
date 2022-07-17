@@ -21,7 +21,6 @@ const Work = (props) => {
                                 </div>
                         </div>
             </div>
-        // </div>
     )
 }
 

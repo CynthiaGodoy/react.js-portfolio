@@ -26,7 +26,7 @@ npm install react-icons
 3. [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). **Note**: `gh-pages` requires a seperate build that can be deployed.
 
 ## Usage
-Inside the directory, you can run several commands:
+Inside the directory, react can run several commands:
 
 `npm start` starts the development server
 
@@ -38,13 +38,9 @@ Inside the directory, you can run several commands:
 
 ## Items Completed
 
-✅ Application contains a Header/Navbar, Content, and a Footer.
-
 ✅ The `Navbar` navigates to sections of the portfolio with the current section highlighted and appears on multiple pages.
 
-✅ Sections include: About Me, Portfolio, Contact, Resume.
-
-✅ The `About Me` section is the first page by default that includes a photo of the developer. The `Resume` button contains a downloadable resume and a list of developers proficiencies.
+✅ The `About Me` section includes a photo of the developer. The `Resume` button contains a downloadable resume and a list of developers proficiencies.
 
 ✅ The `Portfolio` section includes 6 of the developer's applications with links to both the deployed application and the GitHub Repositories.
 

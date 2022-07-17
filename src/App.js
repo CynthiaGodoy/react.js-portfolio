@@ -1,6 +1,7 @@
 //PARENT FILE OF OUR APP
 import React from "react";
 import "./index.css";
+
 //LINK ALL ROUTES
 import Home from "./routes/Home";
 import About from "./routes/About";
