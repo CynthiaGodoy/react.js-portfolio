@@ -3,6 +3,7 @@ import "./AboutMeStyles.css";
 import React from 'react';
 import { Link } from "react-router-dom";
 import myPicture from "../assets/CG.png";
+import myResume from "../assets/Cynthia-Godoy-Resume.pdf";
 
 import { FaDownload, FaLinkedin, FaGithub } from "react-icons/fa";
 
@@ -22,14 +23,14 @@ const AboutMe = () => {
                 <div className="my-picture">
                     <div className="about-img">
                         <img src={myPicture} className="img" alt="Cynthia"/>
-                        </div>
-                        <div className="resume">
-                            <Link to="/"><button className="btn">Resume <FaDownload size={16} style={{ color: "white", marginRight: ".75rem" }} /></button></Link>
-                            <FaLinkedin size={40} style={{ color: "#333", marginRight: ".75rem" }} />
-                            <FaGithub size={40} style={{ color: "#333", marginRight: ".75rem" }} />
-                        </div>
+                    </div>
+                    <div className="resume">
+                        <Link to={ myResume } target="_blank" download><button className="btn">Resume <FaDownload size={16} style={{ color: "white", marginRight: ".75rem" }} /></button></Link>
+                        <FaLinkedin size={40} style={{ color: "#333", marginRight: ".75rem" }} />
+                        <FaGithub size={40} style={{ color: "#333", marginRight: ".75rem" }} />
                     </div>
                 </div>
+            </div>
         </div>
     )
 }
