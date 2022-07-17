@@ -26,8 +26,12 @@ const AboutMe = () => {
                     </div>
                     <div className="resume">
                         <Link to={ myResume } target="_blank" download><button className="btn">Resume <FaDownload size={16} style={{ color: "white", marginRight: ".75rem" }} /></button></Link>
-                        <FaLinkedin size={40} style={{ color: "#333", marginRight: ".75rem" }} />
-                        <FaGithub size={40} style={{ color: "#333", marginRight: ".75rem" }} />
+                        <a href="https://www.linkedin.com/in/cynthia-godoy-ncidq-96951845/" target="_blank">
+                            <FaLinkedin size={40} style={{ color: "#333", marginRight: ".75rem" }} />
+                        </a>
+                        <a href="https://github.com/CynthiaGodoy" target="_blank">
+                            <FaGithub size={40} style={{ color: "#333", marginRight: ".75rem" }} />
+                        </a>
                     </div>
                 </div>
             </div>
