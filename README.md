@@ -52,5 +52,5 @@ Inside the directory, react can run several commands:
 [Tech2 React JS Crash Course](https://www.youtube.com/watch?v=0h2b4ftbZcU&ab_channel=Tech2etc)
 
 ## Screenshot
-![](images/Screenshot.PNG)
-![](images/Screenshot2.PNG)
+![](src/assets/Screenshot.PNG)
+![](src/assets/Screenshot2.PNG)
