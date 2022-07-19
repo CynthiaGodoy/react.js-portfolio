@@ -4,7 +4,7 @@
 A single portfolio page showcasing a developers work using **create-react-app** that is deployed using `gh-pages`.
 
 ## Deployed URL
-[Cynthia Godoy's React.js Portfolio]()
+[Cynthia Godoy's React.js Portfolio](https://cynthiagodoy.github.io/react.js-portfolio/)
 
 ## Installation
 
@@ -23,7 +23,7 @@ npm install react-router-dom
 npm install react-icons
 ```
 
-3. [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). **Note**: `gh-pages` requires a seperate build that can be deployed.
+3. [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). **Note**: `gh-pages` requires a seperate build that can be deployed. 
 
 ## Usage
 Inside the directory, react can run several commands:
