@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react.js-portfolio/static/css/main.63d5a87f.css",
+    "main.js": "/react.js-portfolio/static/js/main.a68344bb.js",
+    "static/media/desk.jpg": "/react.js-portfolio/static/media/desk.0b3f407d4c89d2dadfe3.jpg",
+    "static/media/CG.png": "/react.js-portfolio/static/media/CG.ac8d8911be5c9060809a.png",
+    "static/media/Cynthia-Godoy-Resume.pdf": "/react.js-portfolio/static/media/Cynthia-Godoy-Resume.2c75b8c825e390021862.pdf",
+    "static/media/fit.jpg": "/react.js-portfolio/static/media/fit.4c55b1f2dd834616466a.jpg",
+    "static/media/coffee.jpg": "/react.js-portfolio/static/media/coffee.e0b3262fed61ce3b8068.jpg",
+    "static/media/portfolio.jpg": "/react.js-portfolio/static/media/portfolio.075aa09bf754253fc1da.jpg",
+    "static/media/crud.jpg": "/react.js-portfolio/static/media/crud.499fb6e88a86f630dab7.jpg",
+    "static/media/regex.jpg": "/react.js-portfolio/static/media/regex.b8ade649d1af1eeb7a2f.jpg",
+    "static/media/mongo.jpg": "/react.js-portfolio/static/media/mongo.944fb5d80702e4a36899.jpg",
+    "static/media/readMe.jpg": "/react.js-portfolio/static/media/readMe.f2cb2d97c45b3f90ba4b.jpg",
+    "static/media/weather.jpg": "/react.js-portfolio/static/media/weather.ba3237073c182e98f384.jpg",
+    "static/media/calendar.jpg": "/react.js-portfolio/static/media/calendar.10cb6c522313a9a6f3f4.jpg",
+    "static/media/codeQuiz.jpg": "/react.js-portfolio/static/media/codeQuiz.ec305bf5d6bda7ca11e4.jpg",
+    "static/media/programs.jpg": "/react.js-portfolio/static/media/programs.56e9f4da70d07bc90186.jpg",
+    "static/media/theory.jpg": "/react.js-portfolio/static/media/theory.fd35049ec93c27bab9cf.jpg",
+    "static/media/database.jpg": "/react.js-portfolio/static/media/database.625bbdfe09c0686dff38.jpg",
+    "static/media/cloud.jpg": "/react.js-portfolio/static/media/cloud.50c33b13650b728b2e5a.jpg",
+    "static/media/hosting.jpg": "/react.js-portfolio/static/media/hosting.16f2f4d5bfc800a9c521.jpg",
+    "static/media/coding.jpg": "/react.js-portfolio/static/media/coding.6f3cdbc88b526a1fe49d.jpg",
+    "static/media/password.jpg": "/react.js-portfolio/static/media/password.cf307bed71423fb59eb7.jpg",
+    "index.html": "/react.js-portfolio/index.html",
+    "main.63d5a87f.css.map": "/react.js-portfolio/static/css/main.63d5a87f.css.map",
+    "main.a68344bb.js.map": "/react.js-portfolio/static/js/main.a68344bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63d5a87f.css",
+    "static/js/main.a68344bb.js"
+  ]
+}
