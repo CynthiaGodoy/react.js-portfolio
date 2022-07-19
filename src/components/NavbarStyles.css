@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    z-index: 10;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.highlight{
+    color: chocolate;
+}
+
+.navbar{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.navbar li{
+    padding: 0 1rem;
+}
+
+.navbar li a { 
+    font-size: 16px;
+    font-weight: 700;
+} 
+
+.navbar li a:hover { 
+    color: chocolate;
+} 
+
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 1040px){
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+    .navbar.active{
+        left: 0;
+    }
+    .navbar li {
+        padding: 1rem 0;
+    }
+    .navbar li a {
+        font-size: 16px;
+    }
+    .hamburger{
+        display: initial;
+    }
+    
+}

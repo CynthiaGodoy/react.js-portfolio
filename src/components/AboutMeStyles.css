@@ -1,0 +1,80 @@
+.container {
+    background-color: whitesmoke;
+}
+
+.about-container {
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 2rem;
+    justify-content: center;
+} 
+
+.about-heading {
+    text-align: center;
+    padding-top: 72px;
+    font-size: 28px;
+}
+
+.info {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: chocolate;
+    padding-bottom: 24px;
+}
+
+.about .Bio {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.about .my-picture {
+    max-width: 350px;
+}
+
+.my-picture {
+    text-align: center;
+}
+
+.resume {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    padding-top: 10px;
+}
+
+.resume .btn{
+    color: white;
+    text-align: center;
+    padding-right: 1px;
+}
+
+.Bio h1, .Bio p{
+    padding-bottom: 12px;
+}
+
+@media screen and (max-width: 900px) {
+    .about-container {
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .resume {
+        margin-left: 31%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume {
+        margin-left: 20%;
+        width: 60%;
+    }
+}
