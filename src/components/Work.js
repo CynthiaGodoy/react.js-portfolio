@@ -21,8 +21,8 @@ const Work = (props) => {
                         <div className="description">
                             <p>{props.description}</p>
                                 <div className="portfolio-btns">
-                                    <a href={props.liveURL} target="_blank" className="btn-dark">Live URL</a>
-                                    <a href={props.github} target="_blank" className="btn">GitHub</a>
+                                    <a href={props.liveURL} target="_blank" rel="noreferrer" className="btn-dark">Live URL</a>
+                                    <a href={props.github} target="_blank" rel="noreferrer" className="btn">GitHub</a>
                                 </div>
                         </div>
             </div>
