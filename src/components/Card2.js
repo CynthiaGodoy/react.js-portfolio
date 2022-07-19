@@ -1,24 +1,23 @@
 import "./WorkStyles.css";
-import Work from "./Work";
-import CardData from "./CardData";
+import Work2 from "./Work2";
+import CardData from "./CardData2";
 
 import React from 'react';
 
 //CREATES A CARD FRAME
-const Card = () => {
+const Card2 = () => {
     return (
     <div className="work-container">
         <h1 className="portfolio-heading">Portfolio</h1>
-        <p className="info">with front-end</p>
+        <p className="info">Back-End Only</p>
         <div className="portfolio-container">
                 {CardData.map((val, ind) => {
                     return (
-                        <Work
+                        <Work2
                             key={ind}
                             imgsrc={val.imgsrc}
                             title={val.title}
                             description={val.description}
-                            liveURL={val.liveURL}
                             github={val.github}
                         />
                     );
@@ -28,4 +27,4 @@ const Card = () => {
     )
 }
 
-export default Card;
+export default Card2;

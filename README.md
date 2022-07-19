@@ -48,6 +48,9 @@ Inside the directory, react can run several commands:
 
 ✅ The `Footer` section contains the icon links to the developer's GitHub, Linkedin, and a profile to a third platform.
 
+## Credits
+[Tech2 React JS Crash Course](https://www.youtube.com/watch?v=0h2b4ftbZcU&ab_channel=Tech2etc)
+
 ## Screenshot
 ![](images/Screenshot.PNG)
 ![](images/Screenshot2.PNG)

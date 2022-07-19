@@ -1,7 +1,12 @@
 import "./WorkStyles.css";
 
 import React from 'react';
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+// 
+// export const openInNewTab = (url) => {
+//     const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+//     if (newWindow) newWindow.opener = null;
+//   };
 
 const Work = (props) => {
     return (
@@ -16,8 +21,8 @@ const Work = (props) => {
                         <div className="description">
                             <p>{props.description}</p>
                                 <div className="portfolio-btns">
-                                    <NavLink to={props.liveURL} className="btn-dark">Live URL</NavLink>
-                                    <NavLink to={props.github} className="btn">GitHub</NavLink>
+                                    <a href={props.liveURL} target="_blank" className="btn-dark">Live URL</a>
+                                    <a href={props.github} target="_blank" className="btn">GitHub</a>
                                 </div>
                         </div>
             </div>
@@ -25,3 +30,6 @@ const Work = (props) => {
 }
 
 export default Work;
+
+//<NavLink to={props.liveURL} target="_blank" className="btn-dark">Live URL</NavLink>
+//<NavLink to={props.github} target="_blank" className="btn">GitHub</NavLink>

@@ -15,7 +15,7 @@ const Hero = () => {
             <p>hi, my name is cynthia</p>
             <h1>i am motivated</h1>
             <Link to="/portfolio" className="btn">Portfolio</Link>
-            <Link to="/contact" className="btn-light">Contact</Link>
+            <Link to="/about" className="btn-light">About</Link>
         </div>
     </div>
   )
