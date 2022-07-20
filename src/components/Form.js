@@ -6,7 +6,7 @@ import BackgroundImg from "../assets/desk.jpg";
 
 const Form = () => {
     return (
-        <div className="background">
+        <div className="background" id="contact">
             <img className="desk-img" src={ BackgroundImg } alt="desk"/>
         
         <div className="top">

@@ -1,7 +1,8 @@
 import "./NavbarStyles.css"
 
 import React, {useState} from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -14,10 +15,10 @@ const Navbar = () => {
                 <h1>Cynthia<span class="highlight">Godoy</span></h1>
             </Link> 
             <ul className={click ? "navbar active" : "navbar"}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="#home" smooth>Home</Link></li>
+                <li><Link to="#about" smooth>About</Link></li>
+                <li><Link to="#portfolio" smooth>Portfolio</Link></li>
+                <li><Link to="#contact" smooth>Contact</Link></li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
                 {click ? (

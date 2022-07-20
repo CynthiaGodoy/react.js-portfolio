@@ -23,7 +23,12 @@ npm install react-router-dom
 npm install react-icons
 ```
 
-3. [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). **Note**: `gh-pages` requires a seperate build that can be deployed. 
+4. To install [react hash router](https://www.npmjs.com/package/react-router-hash-link)
+```
+npm install --save react-router-hash-link
+```
+
+5. [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). **Note**: `gh-pages` requires a seperate build that can be deployed. 
 
 ## Usage
 Inside the directory, react can run several commands:

@@ -9,7 +9,7 @@ import { FaDownload, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const AboutMe = () => {
     return (
-        <div className="container">
+        <div className="container" id="about">
             <h1 className="about-heading">About</h1>
                 <p className="info">A little bit of history</p>
             <div className="about-container">
