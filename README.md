@@ -28,7 +28,7 @@ npm install react-icons
 npm install --save react-router-hash-link
 ```
 
-5. [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). **Note**: `gh-pages` requires a seperate build that can be deployed. 
+5. [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). **Note**: `gh-pages` requires a seperate build that can be deployed. To reupload any changes to gh-pages, first remove `.cache>gh-pages` inside the node modules. Then you can npm run deploy again.
 
 ## Usage
 Inside the directory, react can run several commands:
