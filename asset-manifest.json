@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/react.js-portfolio/static/css/main.1bf4f45e.css",
-    "main.js": "/react.js-portfolio/static/js/main.50a013f2.js",
+    "main.js": "/react.js-portfolio/static/js/main.02ff405c.js",
     "static/media/desk.jpg": "/react.js-portfolio/static/media/desk.0b3f407d4c89d2dadfe3.jpg",
     "static/media/CG.png": "/react.js-portfolio/static/media/CG.ac8d8911be5c9060809a.png",
-    "static/media/Cynthia-Godoy-Resume.pdf": "/react.js-portfolio/static/media/Cynthia-Godoy-Resume.2c75b8c825e390021862.pdf",
     "static/media/fit.jpg": "/react.js-portfolio/static/media/fit.4c55b1f2dd834616466a.jpg",
     "static/media/coffee.jpg": "/react.js-portfolio/static/media/coffee.e0b3262fed61ce3b8068.jpg",
     "static/media/portfolio.jpg": "/react.js-portfolio/static/media/portfolio.075aa09bf754253fc1da.jpg",
@@ -24,10 +23,10 @@
     "static/media/password.jpg": "/react.js-portfolio/static/media/password.cf307bed71423fb59eb7.jpg",
     "index.html": "/react.js-portfolio/index.html",
     "main.1bf4f45e.css.map": "/react.js-portfolio/static/css/main.1bf4f45e.css.map",
-    "main.50a013f2.js.map": "/react.js-portfolio/static/js/main.50a013f2.js.map"
+    "main.02ff405c.js.map": "/react.js-portfolio/static/js/main.02ff405c.js.map"
   },
   "entrypoints": [
     "static/css/main.1bf4f45e.css",
-    "static/js/main.50a013f2.js"
+    "static/js/main.02ff405c.js"
   ]
 }
