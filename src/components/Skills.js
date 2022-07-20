@@ -11,9 +11,9 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div className="top">
+        <div className="top" id="skills">
             <h1 className="skills-heading">Skills</h1>
-            <p className="info">Experience | Knowledge</p>
+            <p className="info">Education | Knowledge</p>
                 <div className="skills-container">
 
                     <div clasName="skill">

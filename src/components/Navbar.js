@@ -18,6 +18,7 @@ const Navbar = () => {
                 <li><Link to="#home" smooth>Home</Link></li>
                 <li><Link to="#about" smooth>About</Link></li>
                 <li><Link to="#portfolio" smooth>Portfolio</Link></li>
+                <li><Link to="#skills" smooth>Skills</Link></li>
                 <li><Link to="#contact" smooth>Contact</Link></li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
