@@ -1,6 +1,7 @@
-import "./FormStyles.css"
+import "./FormStyles.css";
 
-import React from 'react'
+import React from 'react';
+// import { NavLink } from "react-router-dom";
 
 import BackgroundImg from "../assets/desk.jpg";
 
@@ -25,4 +26,4 @@ const Form = () => {
     )
 }
 
-export default Form
+export default Form;

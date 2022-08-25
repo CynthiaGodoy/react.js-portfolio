@@ -1,0 +1,98 @@
+.portfolio-heading {
+    text-align: center;
+    padding-top: 72px;
+    font-size: 28px;
+}
+
+.info {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: chocolate;
+    padding-bottom: 24px;
+}
+
+.frontend-container {
+    line-height: 0;
+    justify-content: center;
+    -webkit-column-count: 4;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    4;
+    -moz-column-gap:      0px;
+    column-count:         4;
+    column-gap:           0px;
+}
+
+.frontend-card {
+    width: 100% !important;
+    position: relative;
+}
+
+.background-frontend {
+    width: 100% !important;
+}
+
+.background-frontend img {
+    -webkit-margin-bottom-collapse: 0px;
+    margin-block-end: 0px;
+    padding: 0;
+}
+
+.frontend-title {
+    color: chocolate;
+    padding: 5px 0;
+    font-size: 1.2rem;
+}
+
+.frontend-description p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.overlay-frontend {
+    line-height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: chocolate;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    position: absolute;
+    top: 38%;
+    
+}
+
+.frontend-btns {
+    line-height: 100%;
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: -42px;
+    bottom: 2%;
+}
+
+.frontend-btns .btn{
+    padding: 10px 10px;
+    color: white;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .frontend-container {
+        -webkit-column-count: 2;
+        -moz-column-count:    2;
+        column-count:         2;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .frontend-container {
+        -webkit-column-count: 1;
+        -moz-column-count:    1;
+        column-count:         1;
+    }
+}

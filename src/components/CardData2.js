@@ -37,11 +37,3 @@ const CardData = [
 ];
 
 export default CardData;
-
-
-    // imgsrc: Project7,
-    // alt: "alt",
-    // title: "Social Media API",
-    // description: "Mongoose Object Data Modeling for MongoDB | Timestamps | Validation | Insomnia",
-    // liveURL: "url.com",
-    // github: "https://github.com/CynthiaGodoy/NoSQL-Social-Media-API",

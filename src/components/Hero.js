@@ -1,6 +1,6 @@
 import "./HeroStyles.css";
 
-import React from 'react'
+import React from 'react';
 
 import BackgroundImg from "../assets/desk.jpg";
 // import { Link } from "react-router-dom";

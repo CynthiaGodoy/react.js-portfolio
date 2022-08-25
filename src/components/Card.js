@@ -1,4 +1,4 @@
-import "./WorkStyles.css";
+import "./WorkGridStyles.css";
 import Work from "./Work";
 import CardData from "./CardData";
 
@@ -10,7 +10,7 @@ const Card = () => {
     <div className="work-container">
         <h1 className="portfolio-heading">Portfolio</h1>
         <p className="info">with front-end</p>
-        <div className="portfolio-container">
+        <div className="frontend-container">
                 {CardData.map((val, ind) => {
                     return (
                         <Work
@@ -18,7 +18,7 @@ const Card = () => {
                             imgsrc={val.imgsrc}
                             title={val.title}
                             description={val.description}
-                            liveURL={val.liveURL}
+                            // liveURL={val.liveURL}
                             github={val.github}
                         />
                     );

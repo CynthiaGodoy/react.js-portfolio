@@ -1,4 +1,4 @@
-import "./SkillsStyles.css"
+import "./SkillsStyles.css";
 
 import Cloud from "../assets/cloud.jpg"
 import Coding from "../assets/coding.jpg"
