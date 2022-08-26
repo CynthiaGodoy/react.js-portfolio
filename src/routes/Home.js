@@ -14,9 +14,9 @@ const Home = () => {
             <Navbar />
             <Hero />
             <AboutMe />
+            <Skills />
             <Card />
             <Card2 />
-            <Skills />
             <Form />
             <Footer />
         </div>

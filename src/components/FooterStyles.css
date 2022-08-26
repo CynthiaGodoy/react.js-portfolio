@@ -92,6 +92,11 @@
     font-size: 18px;
 }
 
+.contactInfo h4 {
+    font-size: 20px;
+}
+
+
 .location, .phone, .email {
     display: flex;
     margin-bottom: 0;

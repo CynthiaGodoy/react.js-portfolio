@@ -48,12 +48,12 @@ const Footer = () => {
                             <p><Link to="#about" smooth className="hvr-bounce-in">About | Bio</Link></p>
                             <p><a href="https://docs.google.com/document/d/1zshhqrUmAzJLudyaYYTx1DxAvxO0VvyptTcPJXK5vIw/edit?usp=sharing" target="_blank" rel="noreferrer" className="hvr-bounce-in">Download Resume</a></p>
                             <p><Link to="#skills" smooth className="hvr-bounce-in">Developer Skills</Link></p>
+                            <p><Link to="#contact" smooth className="hvr-bounce-in">Contact Info</Link></p>
                         </div>
                         
                         <div className="navigation-right">
                             <p><Link to="#portfolio" smooth className="hvr-bounce-in">Portfolio w/Frontend</Link></p>
                             <p><Link to="#portfolio" smooth className="hvr-bounce-in">Backend Only Portfolio</Link></p>
-                            <p><Link to="#contact" smooth className="hvr-bounce-in">Contact Info</Link></p>
                         </div>
                     </div>
                 </div>
