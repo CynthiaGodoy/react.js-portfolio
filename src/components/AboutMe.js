@@ -24,7 +24,7 @@ const AboutMe = () => {
                         <img src={myPicture} className="img" alt="Cynthia"/>
                     </div>
                     <div className="resume">
-                        <a href="https://drive.google.com/file/d/1__Isdee7o9mqHvra8hTaID3ijBXBqKzq/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btn">Resume <FaDownload size={16} style={{ color: "white", marginRight: ".75rem" }} /></button></a>
+                        <a href="https://docs.google.com/document/d/1zshhqrUmAzJLudyaYYTx1DxAvxO0VvyptTcPJXK5vIw/edit?usp=sharing" target="_blank" rel="noreferrer"><button className="btn">Resume <FaDownload size={16} style={{ color: "white", marginRight: ".75rem" }} /></button></a>
                         <a href="https://www.linkedin.com/in/cynthia-godoy-ncidq-96951845/" target="_blank" rel="noreferrer">
                             <FaLinkedin size={40} style={{ color: "#333", marginRight: ".75rem" }} />
                         </a>
