@@ -18,7 +18,7 @@ const Card = () => {
                             imgsrc={val.imgsrc}
                             title={val.title}
                             description={val.description}
-                            // liveURL={val.liveURL}
+                            liveURL={val.liveURL}
                             github={val.github}
                         />
                     );
