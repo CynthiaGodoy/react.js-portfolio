@@ -7,7 +7,7 @@ import React from 'react';
 //CREATES A CARD FRAME
 const Card = () => {
     return (
-    <div className="work-container">
+    <div className="work-container" id="portfolio-frontend">
         <h1 className="portfolio-heading">Portfolio</h1>
         <p className="info">with front-end</p>
         <div className="frontend-container">
