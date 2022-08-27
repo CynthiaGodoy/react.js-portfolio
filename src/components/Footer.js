@@ -52,8 +52,8 @@ const Footer = () => {
                         </div>
                         
                         <div className="navigation-right">
-                            <p><Link to="#portfolio" smooth className="hvr-bounce-in">Portfolio w/Frontend</Link></p>
-                            <p><Link to="#portfolio" smooth className="hvr-bounce-in">Backend Only Portfolio</Link></p>
+                            <p><Link to="#portfolio-frontend" smooth className="hvr-bounce-in">Portfolio w/Frontend</Link></p>
+                            <p><Link to="#portfolio-backend" smooth className="hvr-bounce-in">Backend Only Portfolio</Link></p>
                         </div>
                     </div>
                 </div>
@@ -74,26 +74,6 @@ const Footer = () => {
 
             </div>
         </div>
-
-
-
-
-
-        //         <div className="social">
-        //             <h4>Social Media | More About Me</h4>
-        //             <p>From Interior Designer to Software Developer. Educated in full-stack development from the University of Denver. </p>
-        //                 <div className="socialIcon">
-        //                     <a href="https://www.linkedin.com/in/cynthia-godoy-ncidq-96951845/" target="_blank" rel="noreferrer">
-        //                         <FaLinkedin size={36} style={{ color: "white", marginRight: ".75rem" }} />
-        //                     </a>
-        //                     <a href="https://github.com/CynthiaGodoy" target="_blank" rel="noreferrer">
-        //                     <FaGithub size={36} style={{ color: "white", marginRight: ".75rem" }} />
-        //                     </a>
-        //                 </div>
-        //         </div>
-
-        //     </div>
-        // </div>
     )
 }
 

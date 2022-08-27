@@ -112,6 +112,8 @@ h1{
     transform: translateX(4px);
 }
 
+/* MEDIA SCREENS ------------------ */
+
 @media screen and (max-width: 1040px){
     .navbar {
         flex-direction: column;
@@ -137,6 +139,10 @@ h1{
     }
     .hamburger{
         display: initial;
+    }
+    .dropdown .dropbtn {
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 1rem; /* Important for vertical align on mobile phones */
     }
     
 }
