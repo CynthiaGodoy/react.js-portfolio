@@ -52,8 +52,8 @@ const Footer = () => {
                         </div>
                         
                         <div className="navigation-right">
-                            <p><Link to="#portfolio-frontend" smooth className="hvr-bounce-in">Portfolio w/Frontend</Link></p>
-                            <p><Link to="#portfolio-backend" smooth className="hvr-bounce-in">Backend Only Portfolio</Link></p>
+                            <p><Link to="#portfolio-frontend" smooth className="hvr-bounce-in">Portfolio w/Front End</Link></p>
+                            <p><Link to="#portfolio-backend" smooth className="hvr-bounce-in">Back End Only Portfolio</Link></p>
                         </div>
                     </div>
                 </div>
