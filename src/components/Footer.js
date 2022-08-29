@@ -32,12 +32,13 @@ const Footer = () => {
                         <SiApollographql size={30} style={{ color: "#112B49", marginRight: "1rem" }} />
                         <FaHtml5 size={30} style={{ color: "#e34c26", marginRight: "1rem" }} />
                         <FaCss3Alt size={30} style={{ color: "#264de4", marginRight: "1rem" }} />
+                        <div>
                         <SiMysql size={30} style={{ color: "#00758f", marginRight: "1rem" }} />
                         <SiInsomnia size={30} style={{ color: "#6400d7", marginRight: "1rem" }} />
                         <SiSequelize size={30} style={{ color: "#2f406a", marginRight: "1rem" }} />
                         <SiHeroku size={30} style={{ color: "#6762A6", marginRight: "1rem" }} />
                         <SiJquery size={30} style={{ color: "#0769ad", marginRight: "1rem" }} />
-                    </div>
+                    </div></div>
                     </Fade>
                 </div>
 
@@ -50,19 +51,21 @@ const Footer = () => {
                             <p><Link to="#about" smooth className="hvr-bounce-in">About | Bio</Link></p>
                             <p><a href="https://docs.google.com/document/d/1zshhqrUmAzJLudyaYYTx1DxAvxO0VvyptTcPJXK5vIw/edit?usp=sharing" target="_blank" rel="noreferrer" className="hvr-bounce-in">Download Resume</a></p>
                             <p><Link to="#skills" smooth className="hvr-bounce-in">Developer Skills</Link></p>
-                            <p><Link to="#contact" smooth className="hvr-bounce-in">Contact Info</Link></p>
+                            
                         </div>
                         
                         <div className="navigation-right">
                             <p><Link to="#portfolio-frontend" smooth className="hvr-bounce-in">Portfolio w/Front End</Link></p>
                             <p><Link to="#portfolio-backend" smooth className="hvr-bounce-in">Back End Only Portfolio</Link></p>
+                            <p><Link to="#contact" smooth className="hvr-bounce-in">Contact Info</Link></p>
                         </div>
                     </div>
                 </div>
 
                 <div className="social">
                     <h4>Social Media | More About Me </h4>
-                    <p><span className="highlight">From Interior Designer to Software Developer. </span>Educated in full-stack development from the University of Denver.</p>
+                    <p><span className="highlight">From Interior Designer to Software Developer.</span></p>
+                    <p>Educated in full-stack development from the University of Denver.</p>
                     <Fade right big>
                         <div className="socialIcon">
                             <a href="https://www.linkedin.com/in/cynthia-godoy-ncidq-96951845/" className="hvr-bounce-in linkedin" target="_blank" rel="noreferrer">
