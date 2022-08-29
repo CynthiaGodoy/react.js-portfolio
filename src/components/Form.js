@@ -33,20 +33,12 @@ const Form = () => {
                             <label>Name</label><input type="text" name="user_name" />
                             <label>Email</label><input type="email" name="user_email" />
                             <label>Message</label><textarea name="message" rows="5" placeholder="Type your message here" />
-                            <input type="submit" className="btn" value="Send"/>
+                            <button input type="submit" className="hvr-rectangle-out btn">Send</button>
                         </form>
-
-
-                            {/* <label>Name</label><input type="user_name"></input> 
-                            <label>Email</label><input type="user_email"></input> */}
-                            {/* <label>Subject</label><input type="subject"></input>  */}
-                            {/* <label>Message</label><textarea rows="5" placeholder="Type your message here"/>
-                            <buttom className="btn">Submit</buttom> */}
-                        {/* </form> */}
                     </div>
             </div>
         </div>
     );
-    }
+}
 
 export default Form;
