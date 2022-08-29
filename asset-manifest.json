@@ -1,32 +1,35 @@
 {
   "files": {
-    "main.css": "/react.js-portfolio/static/css/main.1bf4f45e.css",
-    "main.js": "/react.js-portfolio/static/js/main.02ff405c.js",
+    "main.css": "/react.js-portfolio/static/css/main.95ee44e2.css",
+    "main.js": "/react.js-portfolio/static/js/main.25593857.js",
     "static/media/desk.jpg": "/react.js-portfolio/static/media/desk.0b3f407d4c89d2dadfe3.jpg",
+    "static/media/weather.jpg": "/react.js-portfolio/static/media/weather.aa21187e9feed334ed69.jpg",
+    "static/media/toy.jpg": "/react.js-portfolio/static/media/toy.1e627406815981d6ee77.jpg",
     "static/media/CG.png": "/react.js-portfolio/static/media/CG.ac8d8911be5c9060809a.png",
-    "static/media/fit.jpg": "/react.js-portfolio/static/media/fit.4c55b1f2dd834616466a.jpg",
-    "static/media/coffee.jpg": "/react.js-portfolio/static/media/coffee.e0b3262fed61ce3b8068.jpg",
-    "static/media/portfolio.jpg": "/react.js-portfolio/static/media/portfolio.075aa09bf754253fc1da.jpg",
+    "static/media/coffee.jpg": "/react.js-portfolio/static/media/coffee.6978550c72d9ecff7212.jpg",
+    "static/media/password.jpg": "/react.js-portfolio/static/media/password.ed4c75cfb2b5c8227c0b.jpg",
+    "static/media/calendar.jpg": "/react.js-portfolio/static/media/calendar.ed3d8db2e40f87516f92.jpg",
+    "static/media/keyboard.jpg": "/react.js-portfolio/static/media/keyboard.d36e722fd2333546f7e5.jpg",
+    "static/media/fit.jpg": "/react.js-portfolio/static/media/fit.2bd209ca7433473d0d2c.jpg",
     "static/media/crud.jpg": "/react.js-portfolio/static/media/crud.499fb6e88a86f630dab7.jpg",
     "static/media/regex.jpg": "/react.js-portfolio/static/media/regex.b8ade649d1af1eeb7a2f.jpg",
     "static/media/mongo.jpg": "/react.js-portfolio/static/media/mongo.944fb5d80702e4a36899.jpg",
+    "static/media/notebook.jpg": "/react.js-portfolio/static/media/notebook.a48846be85c9d6487bfc.jpg",
     "static/media/readMe.jpg": "/react.js-portfolio/static/media/readMe.f2cb2d97c45b3f90ba4b.jpg",
-    "static/media/weather.jpg": "/react.js-portfolio/static/media/weather.ba3237073c182e98f384.jpg",
-    "static/media/calendar.jpg": "/react.js-portfolio/static/media/calendar.10cb6c522313a9a6f3f4.jpg",
-    "static/media/codeQuiz.jpg": "/react.js-portfolio/static/media/codeQuiz.ec305bf5d6bda7ca11e4.jpg",
+    "static/media/profile.jpg": "/react.js-portfolio/static/media/profile.7ec24cec47070b2f5ceb.jpg",
+    "static/media/files.jpg": "/react.js-portfolio/static/media/files.bf66f1d3f3a59ac78571.jpg",
     "static/media/programs.jpg": "/react.js-portfolio/static/media/programs.56e9f4da70d07bc90186.jpg",
     "static/media/theory.jpg": "/react.js-portfolio/static/media/theory.fd35049ec93c27bab9cf.jpg",
     "static/media/database.jpg": "/react.js-portfolio/static/media/database.625bbdfe09c0686dff38.jpg",
     "static/media/cloud.jpg": "/react.js-portfolio/static/media/cloud.50c33b13650b728b2e5a.jpg",
     "static/media/hosting.jpg": "/react.js-portfolio/static/media/hosting.16f2f4d5bfc800a9c521.jpg",
     "static/media/coding.jpg": "/react.js-portfolio/static/media/coding.6f3cdbc88b526a1fe49d.jpg",
-    "static/media/password.jpg": "/react.js-portfolio/static/media/password.cf307bed71423fb59eb7.jpg",
     "index.html": "/react.js-portfolio/index.html",
-    "main.1bf4f45e.css.map": "/react.js-portfolio/static/css/main.1bf4f45e.css.map",
-    "main.02ff405c.js.map": "/react.js-portfolio/static/js/main.02ff405c.js.map"
+    "main.95ee44e2.css.map": "/react.js-portfolio/static/css/main.95ee44e2.css.map",
+    "main.25593857.js.map": "/react.js-portfolio/static/js/main.25593857.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bf4f45e.css",
-    "static/js/main.02ff405c.js"
+    "static/css/main.95ee44e2.css",
+    "static/js/main.25593857.js"
   ]
 }
