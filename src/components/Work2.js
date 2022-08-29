@@ -1,12 +1,11 @@
 import "./WorkStyles.css";
-
-import React from 'react';
+import React from "react";
 
 const Work2 = (props) => {
     return (
         <div className="portfolio-card">
             <div className="img img-hover-zoom">
-            <img src={props.imgsrc} className="card-img" alt={props.alt} />
+                <img src={props.imgsrc} className="card-img" alt={props.alt} />
             </div>
                 <h2 className="title">{props.title}</h2>
                     <div className="description">
@@ -16,7 +15,7 @@ const Work2 = (props) => {
                             </div>
                     </div>
         </div>
-    )
+    );
 }
 
 export default Work2;

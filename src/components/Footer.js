@@ -5,7 +5,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 import { FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaReact, FaBootstrap, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiMongodb, SiApollographql, SiMysql, SiInsomnia, SiSequelize, SiHeroku, SiJquery } from "react-icons/si";
-
+import Fade from 'react-reveal/Fade';
 
 const Footer = () => {
     return (
@@ -23,6 +23,7 @@ const Footer = () => {
                     <div className="email">
                         <FaMailBulk size={18} style={{ color: "white", marginRight: "1rem" }} /><p>cynthia@ck-interiors.com</p>
                     </div>
+                    <Fade left big>
                     <div className="ccIcons">
                         <FaReact size={30} style={{ color: "#61DBFB", marginRight: "1rem" }} />
                         <FaBootstrap size={30} style={{ color: "#563d7c", marginRight: "1rem" }} />
@@ -37,6 +38,7 @@ const Footer = () => {
                         <SiHeroku size={30} style={{ color: "#6762A6", marginRight: "1rem" }} />
                         <SiJquery size={30} style={{ color: "#0769ad", marginRight: "1rem" }} />
                     </div>
+                    </Fade>
                 </div>
 
                 <div className="navigation">
@@ -61,6 +63,7 @@ const Footer = () => {
                 <div className="social">
                     <h4>Social Media | More About Me </h4>
                     <p><span className="highlight">From Interior Designer to Software Developer. </span>Educated in full-stack development from the University of Denver.</p>
+                    <Fade right big>
                         <div className="socialIcon">
                             <a href="https://www.linkedin.com/in/cynthia-godoy-ncidq-96951845/" className="hvr-bounce-in linkedin" target="_blank" rel="noreferrer">
                                 <FaLinkedin size={36} style={{ marginRight: ".2rem", }} />
@@ -70,6 +73,7 @@ const Footer = () => {
                                 <FaGithub size={36} style={{ marginRight: ".2rem" }} />
                             </a>
                         </div>
+                        </Fade>
                 </div>
 
             </div>

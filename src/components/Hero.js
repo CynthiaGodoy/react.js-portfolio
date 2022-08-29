@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         <div className="overlay">
-            <Fade bottom big>
+            <Fade bottom opposite>
               <p>hi, my name is cynthia</p>
               <h1>i am a developer</h1>
                 <div classname="buttons">

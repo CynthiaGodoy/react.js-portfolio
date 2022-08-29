@@ -5,7 +5,7 @@ import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Card2 from "../components/Card2";
 import Card from "../components/Card";
-import Form from "../components/Form";
+// import Form from "../components/Form";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
             <Skills />
             <Card />
             <Card2 />
-            <Form />
+            {/* <Form /> */}
             <Footer />
         </div>
     );

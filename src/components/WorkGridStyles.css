@@ -33,7 +33,7 @@
 /* BACKGROUND FRONTEND WHITE HOVER ------------- */
 .background-frontend {
     width: 100% !important;
-    transition: filter .5s ease-in-out;
+    transition: filter .1s ease-in-out;
     background-color: white;
     z-index: 10;
 }

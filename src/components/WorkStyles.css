@@ -80,6 +80,43 @@
     color: white;
 }
 
+/* MOTION CAROUSEL -------------- */
+/* body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+/* .item {
+    
+    width: 25rem;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    pointer-events: none;
+} */
+
+/* .item img {
+    width: 100%;
+    height: 100%;
+} */
+
+/* .inner-carousel {
+    justify-content: flex-start;
+    display: flex;
+    background: lightblue;
+}
+
+.carousel {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 90px;
+    cursor: grab;
+    overflow: hidden;
+    background: lightpink;
+} */
+
+
 /* SLOW MO ZOOM--------------------- */
 .img-hover-zoom {
     width: 100%;

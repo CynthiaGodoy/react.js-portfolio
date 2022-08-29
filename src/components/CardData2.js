@@ -4,6 +4,8 @@ import Project1 from "../assets/mongo.jpg"
 import Project2 from "../assets/readMe.jpg"
 import Project3 from "../assets/regex.jpg"
 import Project4 from "../assets/crud.jpg"
+// import Project5 from "../assets/crud.jpg"
+// import Project6 from "../assets/crud.jpg"
 
 const CardData = [
     {
@@ -34,6 +36,21 @@ const CardData = [
         description: "Object Relational Mapping (ORM) | Initializer | MySQL2 | Sequalize | .env | Insomnia | CRUD",
         github: "https://github.com/CynthiaGodoy/ORM-eCommerce-Back-End",
     },
+    // {
+    //     imgsrc: Project5,
+    //     alt: "tutorial",
+    //     title: "Regular Expression 101",
+    //     description: "Regex tutorial for matching an email | GitHub Gist | Walks through each part of the Regex",
+    //     github: "https://gist.github.com/CynthiaGodoy",
+    // },
+    // {
+    //     imgsrc: Project6,
+    //     alt: "eCommerce",
+    //     title: "eCommerce Back-End",
+    //     description: "Object Relational Mapping (ORM) | Initializer | MySQL2 | Sequalize | .env | Insomnia | CRUD",
+    //     github: "https://github.com/CynthiaGodoy/ORM-eCommerce-Back-End",
+    // },
+
 ];
 
 export default CardData;
