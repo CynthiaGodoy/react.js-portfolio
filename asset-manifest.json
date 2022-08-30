@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react.js-portfolio/static/css/main.0ac65537.css",
-    "main.js": "/react.js-portfolio/static/js/main.52b840fa.js",
+    "main.css": "/react.js-portfolio/static/css/main.c8f97b76.css",
+    "main.js": "/react.js-portfolio/static/js/main.5d7b6a45.js",
     "static/media/desk.jpg": "/react.js-portfolio/static/media/desk.0b3f407d4c89d2dadfe3.jpg",
     "static/media/weather.jpg": "/react.js-portfolio/static/media/weather.aa21187e9feed334ed69.jpg",
     "static/media/toy.jpg": "/react.js-portfolio/static/media/toy.1e627406815981d6ee77.jpg",
@@ -18,18 +18,13 @@
     "static/media/readMe.jpg": "/react.js-portfolio/static/media/readMe.f2cb2d97c45b3f90ba4b.jpg",
     "static/media/profile.jpg": "/react.js-portfolio/static/media/profile.7ec24cec47070b2f5ceb.jpg",
     "static/media/files.jpg": "/react.js-portfolio/static/media/files.bf66f1d3f3a59ac78571.jpg",
-    "static/media/programs.jpg": "/react.js-portfolio/static/media/programs.56e9f4da70d07bc90186.jpg",
-    "static/media/theory.jpg": "/react.js-portfolio/static/media/theory.fd35049ec93c27bab9cf.jpg",
-    "static/media/database.jpg": "/react.js-portfolio/static/media/database.625bbdfe09c0686dff38.jpg",
-    "static/media/cloud.jpg": "/react.js-portfolio/static/media/cloud.50c33b13650b728b2e5a.jpg",
-    "static/media/hosting.jpg": "/react.js-portfolio/static/media/hosting.16f2f4d5bfc800a9c521.jpg",
-    "static/media/coding.jpg": "/react.js-portfolio/static/media/coding.6f3cdbc88b526a1fe49d.jpg",
+    "static/media/programs.png": "/react.js-portfolio/static/media/programs.4b36e8798826332574db.png",
     "index.html": "/react.js-portfolio/index.html",
-    "main.0ac65537.css.map": "/react.js-portfolio/static/css/main.0ac65537.css.map",
-    "main.52b840fa.js.map": "/react.js-portfolio/static/js/main.52b840fa.js.map"
+    "main.c8f97b76.css.map": "/react.js-portfolio/static/css/main.c8f97b76.css.map",
+    "main.5d7b6a45.js.map": "/react.js-portfolio/static/js/main.5d7b6a45.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ac65537.css",
-    "static/js/main.52b840fa.js"
+    "static/css/main.c8f97b76.css",
+    "static/js/main.5d7b6a45.js"
   ]
 }
