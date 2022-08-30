@@ -50,7 +50,7 @@ h6 {
     position: relative;
     justify-content: center;
     margin-left: 35%;
-    filter: drop-shadow(5px 5px 5px #333);
+    filter: drop-shadow(3px 3px 3px #333);
 } 
 
 .skill {
