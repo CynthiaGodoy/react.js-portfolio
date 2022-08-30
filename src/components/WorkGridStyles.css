@@ -58,7 +58,8 @@
     display: none;
 }
 
-.frontend-card a:hover + .hide {
+.frontend-card a:hover + .hide,
+.overlay-frontend:hover {
     display: block;
 }
 

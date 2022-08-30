@@ -1,11 +1,11 @@
 import "./SkillsStyles.css";
 
-import Cloud from "../assets/cloud.jpg"
-import Coding from "../assets/coding.jpg"
-import Database from "../assets/database.jpg"
-import Program from "../assets/programs.jpg"
-import Theory from "../assets/theory.jpg"
-import Hosting from "../assets/hosting.jpg"
+import Cloud from "../assets/cloud.png"
+import Coding from "../assets/coding.png"
+import Database from "../assets/database.png"
+import Program from "../assets/programs.png"
+import Theory from "../assets/theory.png"
+import Hosting from "../assets/hosting.png"
 
 import React from 'react'
 import Fade from 'react-reveal/Fade';
