@@ -10,12 +10,12 @@ import Fade from 'react-reveal/Fade';
 const Hero = () => {
   return (
     <div className="hero" id="home">
-        <div className="background">
-            <img className="desk-img" src={ BackgroundImg } alt="desk"/>
+        <div className="background bgBox">
+            <img className="desk-img bgExample" src={ BackgroundImg } alt="desk"/>
         </div>
 
         <div className="overlay">
-            <Fade bottom opposite>
+            <Fade bottom opposite delay>
               <p>hi, my name is cynthia</p>
               <h1>i am a developer</h1>
                 <div classname="buttons">
