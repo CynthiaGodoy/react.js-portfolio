@@ -1,3 +1,4 @@
+// FRONT END PORTFOLIO GRID ---------------
 import "./WorkGridStyles.css";
 import Work from "./Work";
 import CardData from "./CardData";

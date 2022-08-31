@@ -1,33 +1,74 @@
+// BACKEND PORTFOLIO CAROUSEL-------------
 import "./WorkStyles.css";
 import Work2 from "./Work2";
 import CardData from "./CardData2";
 
-// import React, { Card2 } from "react";
 import React from 'react';
-// import Carousel from 'react-multi-carousel';
-// import 'react-multi-carousel/lib/styles.css';
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import { useState } from "react";
 
-//CREATES A CARD FRAME
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+
+//FULL PORTFOLIO PAGE---------------------
 const Card2 = () => {
+
+    const NextArrow = ({onClick}) => {
+        return (
+            <div className="arrow next" onClick={onClick}>
+                <FaArrowRight />
+            </div>
+        );
+    };
+
+    const PrevArrow = ({onClick}) => {
+        return (
+            <div className="arrow prev" onClick={onClick}>
+                <FaArrowLeft />
+            </div>
+        );
+    };
+
+    const [ImageIndex, setImageIndex] = useState(0)
+
+    const settings = {
+        infinite: true,
+        lazyload: true,
+        speed: 300,
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: 0,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
+        beforeChange: (current, next) => setImageIndex(next),
+        
+        mobileFirst: true,
+        responsive: [{
+            breakpoint: 740,
+            settings: {
+            slidesToShow: 1,
+            }}]
+    };
+
     return (
     <div className="work-container" id="portfolio-backend">
         <h1 className="portfolio-heading">Portfolio</h1>
-        <p className="info">Back-End Only</p>
+        <p className="info">Back-End & CLI's</p>
         <div className="portfolio-container"> 
+            <Slider {...settings}>
                 {CardData.map((val, ind) => {
                     return (
-                        <Work2
-                            key={ind}
-                            imgsrc={val.imgsrc}
-                            title={val.title}
-                            description={val.description}
-                            github={val.github}
+                        <div className={ind === ImageIndex ? "slide activeSlide" : "slide"}>
+                            <Work2
+                                key={ind}
+                                imgsrc={val.imgsrc}
+                                title={val.title}
+                                description={val.description}
+                                github={val.github}
                         />
+                        </div>
                     );
                 })}
+            </Slider>
         </div>
     </div>
     );

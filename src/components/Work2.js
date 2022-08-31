@@ -1,6 +1,7 @@
 import "./WorkStyles.css";
 import React from "react";
 
+// PORTFOLIO CARD LAYOUT----------------------
 const Work2 = (props) => {
     return (
         <div className="portfolio-card">

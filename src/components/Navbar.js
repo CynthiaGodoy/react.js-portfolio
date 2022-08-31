@@ -24,7 +24,7 @@ const Navbar = () => {
                     <button class="dropbtn">Portfolio<i class="fa fa-caret-down"></i></button>
                         <div class="dropdown-content">
                             <li><Link to="/#portfolio-frontend" className="hvr-icon-forward" smooth><MdPlayArrow size={16} style={{ color: "chocolate", marginRight: ".75rem" }} className="hvr-icon" />with Front End</Link></li>
-                            <li><Link to="/#portfolio-backend" className="hvr-icon-forward" smooth><MdPlayArrow size={16} style={{ color: "chocolate", marginRight: ".75rem" }} className="hvr-icon" />Back End only</Link></li>
+                            <li><Link to="/#portfolio-backend" className="hvr-icon-forward" smooth><MdPlayArrow size={16} style={{ color: "chocolate", marginRight: ".75rem" }} className="hvr-icon" />Back End & CLI's</Link></li>
                         </div>
                 </div>
 
