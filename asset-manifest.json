@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react.js-portfolio/static/css/main.3ad9d136.css",
-    "main.js": "/react.js-portfolio/static/js/main.0bea53ec.js",
+    "main.css": "/react.js-portfolio/static/css/main.6b3735ee.css",
+    "main.js": "/react.js-portfolio/static/js/main.d6f388d6.js",
     "static/media/desk.jpg": "/react.js-portfolio/static/media/desk.0b3f407d4c89d2dadfe3.jpg",
     "static/media/weather.jpg": "/react.js-portfolio/static/media/weather.aa21187e9feed334ed69.jpg",
     "static/media/toy.jpg": "/react.js-portfolio/static/media/toy.1e627406815981d6ee77.jpg",
@@ -11,20 +11,24 @@
     "static/media/calendar.jpg": "/react.js-portfolio/static/media/calendar.ed3d8db2e40f87516f92.jpg",
     "static/media/keyboard.jpg": "/react.js-portfolio/static/media/keyboard.d36e722fd2333546f7e5.jpg",
     "static/media/fit.jpg": "/react.js-portfolio/static/media/fit.2bd209ca7433473d0d2c.jpg",
-    "static/media/crud.jpg": "/react.js-portfolio/static/media/crud.499fb6e88a86f630dab7.jpg",
+    "static/media/crud.jpg": "/react.js-portfolio/static/media/crud.608f94b365f1accfc14c.jpg",
     "static/media/regex.jpg": "/react.js-portfolio/static/media/regex.b8ade649d1af1eeb7a2f.jpg",
-    "static/media/mongo.jpg": "/react.js-portfolio/static/media/mongo.944fb5d80702e4a36899.jpg",
+    "static/media/mongo.jpg": "/react.js-portfolio/static/media/mongo.ce32e41c989c191722da.jpg",
     "static/media/notebook.jpg": "/react.js-portfolio/static/media/notebook.a48846be85c9d6487bfc.jpg",
     "static/media/readMe.jpg": "/react.js-portfolio/static/media/readMe.f2cb2d97c45b3f90ba4b.jpg",
     "static/media/profile.jpg": "/react.js-portfolio/static/media/profile.7ec24cec47070b2f5ceb.jpg",
     "static/media/files.jpg": "/react.js-portfolio/static/media/files.bf66f1d3f3a59ac78571.jpg",
     "static/media/programs.png": "/react.js-portfolio/static/media/programs.383b0ec9da4f3c0558e3.png",
+    "static/media/slick.svg": "/react.js-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react.js-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react.js-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react.js-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react.js-portfolio/index.html",
-    "main.3ad9d136.css.map": "/react.js-portfolio/static/css/main.3ad9d136.css.map",
-    "main.0bea53ec.js.map": "/react.js-portfolio/static/js/main.0bea53ec.js.map"
+    "main.6b3735ee.css.map": "/react.js-portfolio/static/css/main.6b3735ee.css.map",
+    "main.d6f388d6.js.map": "/react.js-portfolio/static/js/main.d6f388d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ad9d136.css",
-    "static/js/main.0bea53ec.js"
+    "static/css/main.6b3735ee.css",
+    "static/js/main.d6f388d6.js"
   ]
 }
