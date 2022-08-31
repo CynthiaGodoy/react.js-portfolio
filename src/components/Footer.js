@@ -29,10 +29,10 @@ const Footer = () => {
                         <FaBootstrap size={30} style={{ color: "#563d7c", marginRight: "1rem" }} />
                         <FaNodeJs size={30} style={{ color: "#215732", marginRight: "1rem" }} />
                         <SiMongodb size={30} style={{ color: "#4FA83D", marginRight: "1rem" }} />
-                        <SiApollographql size={30} style={{ color: "#112B49", marginRight: "1rem" }} />
                         <FaHtml5 size={30} style={{ color: "#e34c26", marginRight: "1rem" }} />
                         <FaCss3Alt size={30} style={{ color: "#264de4", marginRight: "1rem" }} />
                         <div>
+                        <SiApollographql size={30} style={{ color: "#112B49", marginRight: "1rem" }} />
                         <SiMysql size={30} style={{ color: "#00758f", marginRight: "1rem" }} />
                         <SiInsomnia size={30} style={{ color: "#6400d7", marginRight: "1rem" }} />
                         <SiSequelize size={30} style={{ color: "#2f406a", marginRight: "1rem" }} />
