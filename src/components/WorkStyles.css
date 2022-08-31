@@ -22,8 +22,12 @@
     margin: 10px auto;
     /* height: 800px; */
     margin-bottom: 75px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
+/* CAROUSEL ITEMS------------------- */
 .slide {
     transform: scale(.8);
     transition: transform 300ms;
@@ -37,7 +41,6 @@
 }
 
 .arrow {
-    /* background-color: white; */
     position: absolute;
     cursor: pointer;
     z-index: 10;
@@ -61,23 +64,10 @@
     top: 50%;
 }
 
-
-/* .portfolio-container {
-    max-width: 1400px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    padding-bottom: 10rem;
-    justify-content: center;
-} */
-
 /* PORTFOLIO CARD -------------- */
 .portfolio-card{ 
-    width: 100%;
     background: whitesmoke;
     padding: 1rem;
-    grid-template-columns: 1fr;
 }
 
 .img {
@@ -185,19 +175,10 @@
     transform: scale(1);
 }
 
-/* @media screen and (max-width: 1000px) {
-    .portfolio-container {
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: repeat(2, 1fr);
-    }
-} */
-
-@media screen and (max-width: 740px) {
-    .portfolio-container {
-        slidesToShow: 1;
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: 1fr;
+@media screen and (max-width: 800px) {
+    .portfolio-card {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }

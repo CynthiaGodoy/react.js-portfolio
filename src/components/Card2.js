@@ -28,7 +28,7 @@ const Card2 = () => {
         );
     };
 
-    const [ImageIndex, setImageIndex] = useState(0)
+    const [ImageIndex, setImageIndex] = useState(0);
 
     const settings = {
         infinite: true,
@@ -40,13 +40,14 @@ const Card2 = () => {
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
         beforeChange: (current, next) => setImageIndex(next),
-        
-        mobileFirst: true,
-        responsive: [{
-            breakpoint: 740,
+        responsive: [
+            {
+            breakpoint: 800,
             settings: {
-            slidesToShow: 1,
-            }}]
+                slidesToShow: 1,
+                }
+            },
+        ]
     };
 
     return (
