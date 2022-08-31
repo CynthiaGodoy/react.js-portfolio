@@ -220,6 +220,11 @@
     .resume {
         margin-left: 31%;
         width: 40%;
+        margin-left: 10%;
+    }
+    .resume .btn{
+        padding-right: 10px;
+        margin-right: 10px;
     }
 }
 
