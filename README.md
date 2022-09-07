@@ -47,9 +47,11 @@ Inside the directory, react can run several commands:
 
 ✅ The `About Me` section includes a photo of the developer. The `Resume` button contains a downloadable resume and a list of developers proficiencies.
 
-✅ The `Portfolio` section includes 6 of the developer's applications with links to both the deployed application and the GitHub Repositories.
+✅ The `Portfolio Front End` section includes a CSS grid with hover effect of Front End work.
 
-✅ The `Contact` section contains a contact form with fields for name, email address, and a message. A cursor over the field will indicate that the field is required. If invalid email is entered into the form the user will recieve notification that that the email is invalid. **Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't save this information right now.
+✅ The `Portfolio Back End` section includes a React Carousel with Back End and CLI's.
+
+✅ The `Contact` section contains a contact form with fields for name, email address, and a message. **Note:** This is currently hooked up to EmailJS and is working correctly.
 
 ✅ The `Footer` section contains the icon links to the developer's GitHub, Linkedin, and a profile to a third platform.
 
@@ -59,3 +61,4 @@ Inside the directory, react can run several commands:
 ## Screenshot
 ![](src/assets/Screenshot.PNG)
 ![](src/assets/Screenshot2.PNG)
+![](src/assets/Screenshot3.PNG)
