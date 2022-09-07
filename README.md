@@ -47,6 +47,8 @@ Inside the directory, react can run several commands:
 
 ✅ The `About Me` section includes a photo of the developer. The `Resume` button contains a downloadable resume and a list of developers proficiencies.
 
+✅ The `Skills` section includes knowledge & education.
+
 ✅ The `Portfolio Front End` section includes a CSS grid with hover effect of Front End work.
 
 ✅ The `Portfolio Back End` section includes a React Carousel with Back End and CLI's.
