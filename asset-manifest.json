@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react.js-portfolio/static/css/main.ba3abb84.css",
-    "main.js": "/react.js-portfolio/static/js/main.bb43355e.js",
+    "main.js": "/react.js-portfolio/static/js/main.32212258.js",
     "static/media/desk.jpg": "/react.js-portfolio/static/media/desk.0b3f407d4c89d2dadfe3.jpg",
     "static/media/weather.jpg": "/react.js-portfolio/static/media/weather.aa21187e9feed334ed69.jpg",
     "static/media/toy.jpg": "/react.js-portfolio/static/media/toy.1e627406815981d6ee77.jpg",
@@ -12,6 +12,7 @@
     "static/media/keyboard.jpg": "/react.js-portfolio/static/media/keyboard.d36e722fd2333546f7e5.jpg",
     "static/media/fit.jpg": "/react.js-portfolio/static/media/fit.2bd209ca7433473d0d2c.jpg",
     "static/media/crud.jpg": "/react.js-portfolio/static/media/crud.608f94b365f1accfc14c.jpg",
+    "static/media/aws.jpg": "/react.js-portfolio/static/media/aws.b9bf3cdef62b8fe8f957.jpg",
     "static/media/regex.jpg": "/react.js-portfolio/static/media/regex.b8ade649d1af1eeb7a2f.jpg",
     "static/media/mongo.jpg": "/react.js-portfolio/static/media/mongo.ce32e41c989c191722da.jpg",
     "static/media/notebook.jpg": "/react.js-portfolio/static/media/notebook.a48846be85c9d6487bfc.jpg",
@@ -25,10 +26,10 @@
     "static/media/slick.woff": "/react.js-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react.js-portfolio/index.html",
     "main.ba3abb84.css.map": "/react.js-portfolio/static/css/main.ba3abb84.css.map",
-    "main.bb43355e.js.map": "/react.js-portfolio/static/js/main.bb43355e.js.map"
+    "main.32212258.js.map": "/react.js-portfolio/static/js/main.32212258.js.map"
   },
   "entrypoints": [
     "static/css/main.ba3abb84.css",
-    "static/js/main.bb43355e.js"
+    "static/js/main.32212258.js"
   ]
 }
