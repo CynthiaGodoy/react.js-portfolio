@@ -71,7 +71,7 @@ const CardData = [
         imgsrc: Project8,
         alt: "ecommerce toys",
         title: "Toystalgic",
-        description: "Team Project | eCommerce | MERN Stack | React.js | Apollo GraphQL | CSS | Stripe | Heroku",
+        description: "Team Project | eCommerce | MERN Stack | React.js | Apollo GraphQL | CSS | Stripe | Heroku | JWT | Mongoose",
         liveURL: "https://toystalgic.herokuapp.com/",
         github: "https://github.com/CynthiaGodoy/toystalgic",
     },
