@@ -1,23 +1,23 @@
 //THIS IS THE PAGE WHERE WE ADD MORE PROJECTS. NO NEED TO TOUCH OTHER PAGES
-import Project1 from "../assets/weather.jpg"
+import Project1 from "../assets/fit.jpg"
 import Project2 from "../assets/calendar.jpg"
 import Project3 from "../assets/keyboard.jpg"
-import Project4 from "../assets/files.jpg"
+import Project4 from "../assets/toy.jpg"
 import Project5 from "../assets/notebook.jpg"
 import Project6 from "../assets/password.jpg"
 import Project7 from "../assets/coffee.jpg"
-import Project8 from "../assets/toy.jpg"
+import Project8 from "../assets/files.jpg"
 import Project9 from "../assets/profile.jpg"
-import Project10 from "../assets/fit.jpg"
+import Project10 from "../assets/weather.jpg"
 
 const CardData = [
     {
         imgsrc: Project1,
-        alt: "weather, temperature, uvIndex",
-        title: "Weather Dashboard",
-        description: "Javascript | Web API's using OpenWeather | AJAX | JQuery",
-        liveURL: "https://cynthiagodoy.github.io/Weather-Dashboard/",
-        github: "https://github.com/CynthiaGodoy/Weather-Dashboard",
+        alt: "fitness",
+        title: "Fit with Friends",
+        description: "Team Project | MVP | MySQL2 | Express-Handlebars | bycrypt | Session | Heroku | Sequelize | Express | Trello",
+        liveURL: "https://fitwithfriends-app.herokuapp.com/",
+        github: "https://github.com/AuraFly/Fit_With_Friends",
     },
     {
         imgsrc: Project2,
@@ -37,11 +37,11 @@ const CardData = [
     },
     {
         imgsrc: Project4,
-        alt: "Text Editor",
-        title: "PWA Notepad/Text Editor",
-        description: "Pogressive Web Application | Text Editor | idb | Webpack Dev Server | Manifest | Babel | CSS Loader",
-        liveURL: "https://hidden-tor-30997.herokuapp.com/",
-        github: "https://github.com/CynthiaGodoy/PWA-Notepad",
+        alt: "ecommerce toys",
+        title: "Toystalgic",
+        description: "Team Project | eCommerce | MERN Stack | React.js | Apollo GraphQL | CSS | Stripe | Heroku | JWT | Mongoose",
+        liveURL: "https://toystalgic.herokuapp.com/",
+        github: "https://github.com/CynthiaGodoy/toystalgic",
     },
     {
         imgsrc: Project5,
@@ -67,15 +67,16 @@ const CardData = [
         liveURL: "https://noah8863.github.io/Coffee-and-Book-Finder/",
         github: "https://github.com/Noah8863/Coffee-and-Book-Finder",
     },
+
     {
         imgsrc: Project8,
-        alt: "ecommerce toys",
-        title: "Toystalgic",
-        description: "Team Project | eCommerce | MERN Stack | React.js | Apollo GraphQL | CSS | Stripe | Heroku | JWT | Mongoose",
-        liveURL: "https://toystalgic.herokuapp.com/",
-        github: "https://github.com/CynthiaGodoy/toystalgic",
+        alt: "Text Editor",
+        title: "PWA Notepad/Text Editor",
+        description: "Pogressive Web Application | Text Editor | idb | Webpack Dev Server | Manifest | Babel | CSS Loader",
+        liveURL: "https://hidden-tor-30997.herokuapp.com/",
+        github: "https://github.com/CynthiaGodoy/PWA-Notepad",
     },
-        {
+    {
         imgsrc: Project9,
         alt: "notes",
         title: "MVC webDev Blog",
@@ -85,11 +86,11 @@ const CardData = [
     },
     {
         imgsrc: Project10,
-        alt: "fitness",
-        title: "Fit with Friends",
-        description: "Team Project | MVP | MySQL2 | Express-Handlebars | bycrypt | Session | Heroku | Sequelize | Express | Trello",
-        liveURL: "https://fitwithfriends-app.herokuapp.com/",
-        github: "https://github.com/AuraFly/Fit_With_Friends",
+        alt: "weather, temperature, uvIndex",
+        title: "Weather Dashboard",
+        description: "Javascript | Web API's using OpenWeather | AJAX | JQuery",
+        liveURL: "https://cynthiagodoy.github.io/Weather-Dashboard/",
+        github: "https://github.com/CynthiaGodoy/Weather-Dashboard",
     },
 ];
 
