@@ -37,7 +37,8 @@
     background-color: white;
     z-index: 10;
 }
-.background-frontend:hover {
+.background-frontend:hover,
+.combine:hover .background-frontend {
     filter: grayscale(90%);
     opacity: 20%;
 } 
@@ -58,12 +59,12 @@
     display: none;
 }
 
-.frontend-card a:hover + .hide,
+.combine .frontend-card a:hover + .hide,
 .overlay-frontend:hover {
     display: block;
 }
 
-.fix-overlay .overlay-frontend {
+.overlay-frontend {
     line-height: 130%;
     border-style: solid; 
     border-width: 2px;
@@ -93,14 +94,14 @@
 }
 
 /* ZOOM & ROTATE--------------------- */
-.fix-overlay .img-hover-zoom--zoom-n-rotate {
+.img-hover-zoom--zoom-n-rotate {
     height: 100%;
     overflow: hidden; 
 }
-.fix-overlay .img-hover-zoom--zoom-n-rotate img {
+.img-hover-zoom--zoom-n-rotate img {
     transition: transform .5s ease-in-out;
 }
-.fix-overlay .img-hover-zoom--zoom-n-rotate:hover img {
+.img-hover-zoom--zoom-n-rotate:hover img {
     transform: scale(1.3) rotate(10deg);
 }
 
