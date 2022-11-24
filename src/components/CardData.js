@@ -71,7 +71,7 @@ const CardData = [
     {
         imgsrc: Project8,
         alt: "Text Editor",
-        title: "PWA Notepad/Text Editor",
+        title: "PWA Text Editor",
         description: "Pogressive Web Application | Text Editor | idb | Webpack Dev Server | Manifest | Babel | CSS Loader",
         liveURL: "https://hidden-tor-30997.herokuapp.com/",
         github: "https://github.com/CynthiaGodoy/PWA-Notepad",
