@@ -211,7 +211,7 @@
     color: #999999;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 915px) {
     .about-container {
         max-width: 80%;
         margin: auto;
