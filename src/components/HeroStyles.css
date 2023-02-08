@@ -92,6 +92,7 @@
     border: none;
     position: relative;
     background: chocolate;
+    border: 1px solid chocolate;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;

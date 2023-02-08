@@ -1,4 +1,5 @@
 import "./HeroStyles.css";
+import ReactTypingEffect from 'react-typing-effect';
 
 import React from 'react';
 
@@ -17,7 +18,7 @@ const Hero = () => {
         <div className="overlay">
             <Fade bottom opposite>
               <p>hi, my name is cynthia</p>
-              <h1>i am a developer</h1>
+              <h1>i am a <ReactTypingEffect text={["designer", "developer", "software engineer"]}/><br/></h1>
                 <div classname="buttons">
                   <Link to="#portfolio-frontend" className="btn hvr-rectangle-out" smooth>Portfolio</Link>
                   <Link to="#about" className="btn-light" smooth>About</Link>
