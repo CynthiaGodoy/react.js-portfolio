@@ -87,16 +87,9 @@
     gap: 20px;
 }
 
-/* ul li {
-    align-items: center;
-    justify-content: center;
-} */
-
 li {
     display: inline-block;
     padding: 10px;
-    /* justify-content: space-between; */
-    /* align-items: center;  */
 }
 
 button {
@@ -105,7 +98,6 @@ button {
     background: none;
     border-style: none;
     font-weight: 700;
-    /* padding-right: 30px; */
     justify-content: center;
 }
 
