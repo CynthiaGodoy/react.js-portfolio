@@ -19,7 +19,7 @@ function Card() {
 		},[])
 
     const gallery_filter = (itemData) =>{
-        const filterData = CardData.filter((item)=> item.type == itemData);
+        const filterData = CardData.filter((item)=> item.type === itemData);
         setData(filterData);
     }
 
