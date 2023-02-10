@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 const Work = (props) => {
     return ( 
         <div className="combine">
-            
+
             <div className="frontend-card img-hover-zoom--zoom-n-rotate">
                 <a href={props.liveURL} target="_blank" rel="noreferrer">
                     <img src={props.imgsrc} className="background-frontend" alt={props.alt}/>

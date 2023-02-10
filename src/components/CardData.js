@@ -10,7 +10,7 @@ import Project8 from "../assets/files.jpg"
 import Project9 from "../assets/profile.jpg"
 import Project10 from "../assets/weather.jpg"
 
-const CardData = [
+export const CardData = [
     {
         imgsrc: Project1,
         alt: "fitness",
@@ -18,6 +18,7 @@ const CardData = [
         description: "Team Project | MVP | MySQL2 | Express-Handlebars | bycrypt | Session | Heroku | Sequelize | Express | Trello",
         liveURL: "https://fitwithfriends-app.herokuapp.com/",
         github: "https://github.com/AuraFly/Fit_With_Friends",
+        type: "team projects",
     },
     {
         imgsrc: Project2,
@@ -26,6 +27,7 @@ const CardData = [
         description: "HTML | JQuery | Third-Party API Moment.js",
         liveURL: "https://cynthiagodoy.github.io/Work-Day-Scheduler/",
         github: "https://github.com/CynthiaGodoy/Work-Day-Scheduler",
+        type: "class activities",
     },
     {
         imgsrc: Project3,
@@ -34,6 +36,7 @@ const CardData = [
         description: "HTML | CSS | Javascript | Timer",
         liveURL: "https://cynthiagodoy.github.io/Code-Quiz/",
         github: "https://github.com/CynthiaGodoy/Code-Quiz",
+        type: "class activities",
     },
     {
         imgsrc: Project4,
@@ -42,6 +45,7 @@ const CardData = [
         description: "Team Project | eCommerce | MERN Stack | React.js | Apollo GraphQL | CSS | Stripe | Heroku | JWT | Mongoose",
         liveURL: "https://toystalgic.herokuapp.com/",
         github: "https://github.com/CynthiaGodoy/toystalgic",
+        type: "team projects",
     },
     {
         imgsrc: Project5,
@@ -50,6 +54,7 @@ const CardData = [
         description: "Express.js | saves and retrieves note data from a JSON file | Heroku",
         liveURL: "https://rocky-shore-91173.herokuapp.com/",
         github: "https://github.com/CynthiaGodoy/Express-Note-Taker",
+        type: "class activities",
     },
     {
         imgsrc: Project6,
@@ -58,6 +63,7 @@ const CardData = [
         description: "HTML | CSS | Javascript",
         liveURL: "https://cynthiagodoy.github.io/Password-Generator/",
         github: "https://github.com/CynthiaGodoy/Password-Generator",
+        type: "class activities",
     },
     {
         imgsrc: Project7,
@@ -66,6 +72,7 @@ const CardData = [
         description: "Team Project | Third-Party API's | Bulma | CSS",
         liveURL: "https://noah8863.github.io/Coffee-and-Book-Finder/",
         github: "https://github.com/Noah8863/Coffee-and-Book-Finder",
+        type: "team projects",
     },
 
     {
@@ -75,6 +82,7 @@ const CardData = [
         description: "Pogressive Web Application | Text Editor | idb | Webpack Dev Server | Manifest | Babel | CSS Loader",
         liveURL: "https://hidden-tor-30997.herokuapp.com/",
         github: "https://github.com/CynthiaGodoy/PWA-Notepad",
+        type: "class activities",
     },
     {
         imgsrc: Project9,
@@ -83,6 +91,7 @@ const CardData = [
         description: "MVC | Express-Handlebars | MySQL2 | Sequelize | bcrypt | .env | session | Heroku",
         liveURL: "https://stark-river-94686.herokuapp.com/",
         github: "https://github.com/CynthiaGodoy/MVC-webDev-Blog",
+        type: "class activities",
     },
     {
         imgsrc: Project10,
@@ -91,6 +100,7 @@ const CardData = [
         description: "Javascript | Web API's using OpenWeather | AJAX | JQuery",
         liveURL: "https://cynthiagodoy.github.io/Weather-Dashboard/",
         github: "https://github.com/CynthiaGodoy/Weather-Dashboard",
+        type: "class activities",
     },
 ];
 

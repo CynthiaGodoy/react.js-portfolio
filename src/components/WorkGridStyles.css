@@ -70,6 +70,49 @@
     display: none;
 }
 
+/* FILTERING BUTTONS FOR POTFOLIO FRONT END */
+.filterItem {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+}
+
+.filterItem ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+/* ul li {
+    align-items: center;
+    justify-content: center;
+} */
+
+li {
+    display: inline-block;
+    padding: 10px;
+    /* justify-content: space-between; */
+    /* align-items: center;  */
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 12px;
+    background: none;
+    border-style: none;
+    font-weight: 700;
+    /* padding-right: 30px; */
+    justify-content: center;
+}
+
+button:hover {
+    color:#45c0be;
+}
+
 @media (hover: hover){
     .combine .frontend-card a:hover + .hide,
     .overlay-frontend:hover {

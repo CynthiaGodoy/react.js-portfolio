@@ -22,7 +22,7 @@ const Skills = () => {
                             <img src={ Cloud } className="skill-icon" alt="blue cloud icon"/>
                         </Fade>
                             <h5>Cloud Management | Deployment</h5>
-                            <h6>GitHub, GitLab & GitBash. Currently studying for the AWS Cloud Architect Exam.</h6>
+                            <h6>GitHub, GitLab & GitBash. Currently studying for the AWS Cloud Architect Exam & Google UX Design.</h6>
                     </div>
 
                     <div className="skill">
