@@ -10,7 +10,7 @@
     text-transform: uppercase;
     font-weight: 600;
     color: chocolate;
-    padding-bottom: 24px;
+    padding-bottom: 16px;
 }
 
 /* COLUMNS ON CARD.JS ------------ */
@@ -99,6 +99,10 @@ button {
     border-style: none;
     font-weight: 700;
     justify-content: center;
+}
+
+:active {
+    color:#45c0be;
 }
 
 button:hover {

@@ -1,7 +1,7 @@
 import "./FooterStyles.css";
 
 import React from "react";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-scroll";
 
 import { FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaReact, FaBootstrap, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiMongodb, SiApollographql, SiMysql, SiInsomnia, SiSequelize, SiHeroku, SiJquery } from "react-icons/si";
@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id="footer">
             <div className="footer-container">
                 
                 <div className="contactInfo">
@@ -47,17 +47,17 @@ const Footer = () => {
 
                     <div className="nav-container">
                         <div className="navigation-left">
-                            <p><Link to="#home" smooth className="hvr-bounce-in">Home</Link></p>
-                            <p><Link to="#about" smooth className="hvr-bounce-in">About | Bio</Link></p>
+                            <p><Link to="home" smooth className="hvr-bounce-in">Home</Link></p>
+                            <p><Link to="about" smooth className="hvr-bounce-in">About | Bio</Link></p>
                             <p><a href="https://docs.google.com/document/d/1zshhqrUmAzJLudyaYYTx1DxAvxO0VvyptTcPJXK5vIw/edit?usp=sharing" target="_blank" rel="noreferrer" className="hvr-bounce-in">Download Resume</a></p>
-                            <p><Link to="#skills" smooth className="hvr-bounce-in">Developer Skills</Link></p>
+                            <p><Link to="skills" smooth className="hvr-bounce-in">Developer Skills</Link></p>
                             
                         </div>
                         
                         <div className="navigation-right">
-                            <p><Link to="#portfolio-frontend" smooth className="hvr-bounce-in">Front End | Full Stack</Link></p>
-                            <p><Link to="#portfolio-backend" smooth className="hvr-bounce-in">Back End & CLI's</Link></p>
-                            <p><Link to="#contact" smooth className="hvr-bounce-in">Contact Info</Link></p>
+                            <p><Link to="front-end" smooth className="hvr-bounce-in">Front End | Full Stack</Link></p>
+                            <p><Link to="back-end" smooth className="hvr-bounce-in">Back End & CLI's</Link></p>
+                            <p><Link to="contact" smooth className="hvr-bounce-in">Contact Info</Link></p>
                         </div>
                     </div>
                 </div>

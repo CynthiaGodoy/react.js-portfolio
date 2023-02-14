@@ -35,6 +35,14 @@ h1{
     color: #333;
 } 
 
+.navbar li a[aria-current="page"] {
+	color: chocolate;	
+}
+
+.navbar .active {
+	color: chocolate;	
+}
+
 .navbar li a:hover { 
     color: chocolate;
 } 

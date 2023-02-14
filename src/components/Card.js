@@ -5,6 +5,8 @@ import Work from "./Work";
 
 // import React from 'react';
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
+
 
 //CREATES A CARD FRAME
 // const Card = () => {
@@ -23,16 +25,19 @@ function Card() {
         setData(filterData);
     }
 
+    const [active, setActive] = useState([]);
+    
     return (
-    <div className="work-container" id="portfolio-frontend">
-        <h1 className="portfolio-heading">Portfolio</h1>
-        <p className="info">with front-end</p>
-        <div className="filterItem">
-            <ul>
-                <li><button onClick={()=> setData(CardData)}>All</button></li>
-                    {collection.map((item)=> <li><button onClick={()=>{gallery_filter(item)}}>{item}</button></li>)}
-            </ul>
-        </div>
+    <div className="work-container">
+        <section id="front-end">
+            <h1 className="portfolio-heading">Portfolio</h1>
+            <p className="info">with front-end</p>
+            <div className="filterItem" id="filterbtn">
+                <ul>
+                    <li><button onClick={()=> setData(CardData)}>All</button></li>
+                        {collection.map((item)=> <li><button onClick={()=>{gallery_filter(item)}}>{item}</button></li>)}
+                </ul>
+            </div>
             <div className="frontend-container">
                 {data.map((val, ind) => {
                     return (
@@ -48,6 +53,7 @@ function Card() {
                     );
                 })}
             </div>
+        </section>
     </div>
     )
 }
