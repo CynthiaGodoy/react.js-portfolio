@@ -2,10 +2,19 @@ import "./WorkGridStyles.css";
 
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import { motion } from "framer-motion";
+import { CardData } from "./CardData";
 
 const Work = (props) => {
     return ( 
-        <div className="combine">
+        <motion.div className="combine"
+                key={CardData.id}
+                layout
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 2 }}
+                exit={{ opacity: 0 }}
+                transition={{duration: 0.5}}
+                >
 
             <div className="frontend-card img-hover-zoom--zoom-n-rotate">
                 <a href={props.liveURL} target="_blank" rel="noreferrer">
@@ -21,7 +30,7 @@ const Work = (props) => {
                         <a href={props.github} target="_blank" rel="noreferrer" className="btn hvr-rectangle-out">GitHub</a>
                     </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
