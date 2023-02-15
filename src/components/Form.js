@@ -20,6 +20,17 @@ const Form = () => {
             });
 };
 
+    // var nextStep = document.querySelector('#nextStep');
+
+    // nextStep.addEventListener('click', function (e) {
+    //     e.preventDefault();
+    // // Hide first view
+    // document.getElementById('my_form').style.display = 'none';
+
+    // // Show thank you message element
+    // document.getElementById('thank_you').style.display = 'block';
+    // });
+
     return (
         <div className="background">
             <img className="desk-img" src={ BackgroundImg } alt="desk"/>
@@ -34,8 +45,19 @@ const Form = () => {
                                 <label>Name</label><input type="text" name="user_name" />
                                 <label>Email</label><input type="email" name="user_email" />
                                 <label>Message</label><textarea name="message" rows="5" placeholder="Type your message here" />
-                                <button input type="submit" className="hvr-rectangle-out btn">Send</button>
+                                <button input type="submit" id="my_form" className="hvr-rectangle-out btn">Send</button>
                             </form>
+
+                            {/* <div id="my_form">
+                                <p>This is my first part of the form.</p>
+                                <button id="nextStep">Submit</button>
+                            </div>
+
+                            <div id="thank_you" style="display: none;">
+                                <p>Thanks for filling up the form!</p>
+                                <button type="submit">Close</button> 
+                            </div> */}
+
                         </section>
                     </div>
             </div>

@@ -1,8 +1,7 @@
 import "./NavbarStyles.css";
 
-import React, {useState, useEffect} from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-scroll";
-// import { HashLink as Link } from "react-router-hash-link";
 // className={({ isActive }) => (isActive ? activeLink : normalLink)}
 
 import { FaBars, FaTimes } from "react-icons/fa";

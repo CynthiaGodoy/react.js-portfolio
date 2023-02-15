@@ -87,12 +87,13 @@
     gap: 20px;
 }
 
+/* BUTTONS-------------------------------------- */
 li {
     display: inline-block;
     padding: 10px;
 }
 
-button {
+.nav-link li Button{
     text-transform: uppercase;
     font-size: 12px;
     background: none;
@@ -101,13 +102,18 @@ button {
     justify-content: center;
 }
 
-:active {
+.nav-link li Button:hover {
     color:#45c0be;
+    text-decoration: underline wavy #45c0be 0.10rem;
+    text-underline-offset: 0.2rem;
 }
 
-button:hover {
+Button.active {
     color:#45c0be;
+    text-decoration: underline wavy #45c0be 0.10rem;
+    text-underline-offset: 0.2rem;
 }
+/* BUTTONS-------------------------------------- */
 
 @media (hover: hover){
     .combine .frontend-card a:hover + .hide,
@@ -224,5 +230,11 @@ button:hover {
         -webkit-column-count: 1;
         -moz-column-count:    1;
         column-count:         1;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .nav-link li Button:hover {
+        text-decoration: none;
     }
 }

@@ -12,6 +12,7 @@ import Project10 from "../assets/weather.jpg"
 
 export const CardData = [
     {
+        id: 1,
         imgsrc: Project1,
         alt: "fitness",
         title: "Fit with Friends",
@@ -21,6 +22,7 @@ export const CardData = [
         type: "team projects",
     },
     {
+        id: 2,
         imgsrc: Project2,
         alt: "day calendar",
         title: "Work-Day Scheduler",
@@ -30,6 +32,7 @@ export const CardData = [
         type: "class activities",
     },
     {
+        id: 3,
         imgsrc: Project3,
         alt: "programming quiz",
         title: "Code Quiz",
@@ -39,6 +42,7 @@ export const CardData = [
         type: "class activities",
     },
     {
+        id: 4,
         imgsrc: Project4,
         alt: "ecommerce toys",
         title: "Toystalgic",
@@ -48,6 +52,7 @@ export const CardData = [
         type: "team projects",
     },
     {
+        id: 5,
         imgsrc: Project5,
         alt: "notes",
         title: "Express Notetaker",
@@ -57,6 +62,7 @@ export const CardData = [
         type: "class activities",
     },
     {
+        id: 6,
         imgsrc: Project6,
         alt: "passwords",
         title: "Password Generator",
@@ -66,6 +72,7 @@ export const CardData = [
         type: "class activities",
     },
     {
+        id: 7,
         imgsrc: Project7,
         alt: "coffee beans",
         title: "Book & Coffee Finder",
@@ -76,6 +83,7 @@ export const CardData = [
     },
 
     {
+        id: 8,
         imgsrc: Project8,
         alt: "Text Editor",
         title: "PWA Text Editor",
@@ -85,6 +93,7 @@ export const CardData = [
         type: "class activities",
     },
     {
+        id: 9,
         imgsrc: Project9,
         alt: "notes",
         title: "MVC webDev Blog",
@@ -94,6 +103,7 @@ export const CardData = [
         type: "class activities",
     },
     {
+        id: 10,
         imgsrc: Project10,
         alt: "weather, temperature, uvIndex",
         title: "Weather Dashboard",

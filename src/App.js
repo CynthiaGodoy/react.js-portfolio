@@ -13,6 +13,8 @@ import Card from "./components/Card";
 import Form from "./components/Form";
 import Footer from "./components/Footer";
 
+// import { AnimatePresence } from "framer-motion"
+
 function App () {
   return (
     <>
