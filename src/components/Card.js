@@ -47,7 +47,7 @@ function Card() {
     <div className="work-container">
         <section id="front-end">
             <h1 className="portfolio-heading">Portfolio</h1>
-            <p className="info">with front-end</p>
+            <p className="info-front">with front-end</p>
             <div className="filterItem" id="filter-btn">
                     <ul className="nav-link">
                         <li><Button onClick={()=> setData(CardData)} active>All</Button></li>

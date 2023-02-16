@@ -10,8 +10,18 @@
     text-transform: uppercase;
     font-weight: 600;
     color: chocolate;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
 }
+
+.info-front {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: chocolate;
+    padding-bottom: 3px;
+}
+
 
 /* COLUMNS ON CARD.JS ------------ */
 .frontend-container {
@@ -75,7 +85,7 @@
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 .filterItem ul {
@@ -90,7 +100,7 @@
 /* BUTTONS-------------------------------------- */
 li {
     display: inline-block;
-    padding: 10px;
+    padding: 2px;
 }
 
 .nav-link li Button{
@@ -233,7 +243,7 @@ Button.active {
     }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 740px) {
     .nav-link li Button:hover {
         text-decoration: none;
     }
