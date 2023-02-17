@@ -4,9 +4,7 @@ import "./WorkGridStyles.css";
 import Work from "./Work";
 
 import React, { useEffect, useState } from 'react';
-import Button from 'react-bootstrap/Button';
-// import { NavLink } from "react-router-dom";
-// {click ? "filterbar active" : "filterbar"} onClick={setActive}
+import $ from "jquery";
 
 //CREATES A CARD FRAME
 function Card() {
@@ -24,36 +22,22 @@ function Card() {
         setData(filterData);
     }
 
-    // const [active, setActive] = useState([]);
-    // document.querySelectorAll('.nav-link').forEach(link => {
-    //     if(link.item === window.location.item){
-    //         link.setAttribute('aria-current', 'page')
-    //     }
-    // })
-
-    //VANILLA JAVASCRIPT OPTION
-    // var header = document.getElementById("filter-btn");
-    // var btns = header.getElementsByClassName("nav-link");
-
-    // for (var i = 0; i < btns.length; i++) {
-    //     btns[i].addEventListener("click", function() {
-    //     var current = document.getElementsByClassName("active");
-    //     current[0].className = current[0].className.replace(" active", "");
-    //     this.className += " active";
-    //     });
-    // }
-
+    $(".nav-btn").on("click", function () {
+        $(".nav-btn").removeClass("active");
+        $(this).addClass("active");
+        });
+    
     return (
     <div className="work-container">
         <section id="front-end">
             <h1 className="portfolio-heading">Portfolio</h1>
             <p className="info-front">with front-end</p>
-            <div className="filterItem" id="filter-btn">
-                    <ul className="nav-link">
-                        <li><Button onClick={()=> setData(CardData)} active>All</Button></li>
-                            {collection.map((item)=> 
-                                <li><Button onClick={()=>{gallery_filter(item)}}>{item}</Button></li>)}
-                    </ul>
+            <div className="filterItem">
+                <ul className="nav-link">
+                    <button className="nav-btn" onClick={()=> setData(CardData)}>All</button>
+                        {collection.map((item)=> 
+                            <button className="nav-btn" onClick={()=>{gallery_filter(item)}}>{item}</button>)}
+                </ul>
             </div>
 
             <div className="frontend-container">
