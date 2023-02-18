@@ -20,7 +20,8 @@
 .form-heading {
     position: absolute;
     transform: translate(-50%, -50%);
-    top:8%;
+    /* top:8%; */
+    top: 72px;
     left: 50%;
     color: white;
     text-align: center;
@@ -32,7 +33,8 @@
     position: absolute;
     text-align: center;
     transform: translate(-50%, -50%);
-    top:18%;
+    /* top:18%; */
+    top: 145px;
     left: 50%;
     font-size: 16px;
     text-transform: uppercase;
@@ -46,6 +48,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
+    /* top: 200px; */
     left: 50%;
     text-align: left;
 }
@@ -114,4 +117,16 @@ form input, form textarea{
 .hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+@media screen and (min-width: 1900px){
+    .form-heading { 
+        top:240px;
+    }
+    .form-info {
+        top:312px;
+    }
+    /* .form-container {
+        top:600px;
+    } */
 }

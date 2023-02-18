@@ -23,7 +23,7 @@ const Navbar = () => {
                 <h1>Cynthia<span class="highlight">Godoy</span></h1>
             </Link> 
             <ul className={click ? "navbar active" : "navbar"}>
-                <li><Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Home</Link></li>
+                <li><Link to="home" spy={true} smooth={true} offset={15} duration={500} onClick={closeMenu}>Home</Link></li>
                 <li><Link to="about" spy={true} smooth={true} offset={15} duration={500} onClick={closeMenu}>About</Link></li>
                 <li><Link to="skills" spy={true} smooth={true} offset={15} duration={500} onClick={closeMenu}>Skills</Link></li>
                 
