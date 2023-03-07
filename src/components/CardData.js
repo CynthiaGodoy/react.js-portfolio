@@ -17,8 +17,8 @@ export const CardData = [
         alt: "fitness",
         title: "Fit with Friends",
         description: "Team Project | MVP | MySQL2 | Express-Handlebars | bycrypt | Session | Heroku | Sequelize | Express | Trello",
-        liveURL: "https://github.com/AuraFly/Fit_With_Friends",
-        github: "https://github.com/AuraFly/Fit_With_Friends",
+        liveURL: "https://github.com/CynthiaGodoy/Fit_With_Friends",
+        github: "https://github.com/CynthiaGodoy/Fit_With_Friends",
         type: "team projects",
     },
     {
