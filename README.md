@@ -57,8 +57,22 @@ Inside the directory, react can run several commands:
 
 ✅ The `Footer` section contains the icon links to the developer's GitHub, Linkedin, and a profile to a third platform.
 
-## Credits
-[Tech2 React JS Crash Course](https://www.youtube.com/watch?v=0h2b4ftbZcU&ab_channel=Tech2etc)
+# Items Used
+[JQuery for `active` buttons. Multiple onClick's on one className]()
+[UseState/UseEffect for portfolio filter, onClick arrows, activeSlide, hamburger with onClick & closeMenu]()
+[Css]() Keyframe Animations on Hero Page Background, Hover:Hover features when in mobile, Hover
+[Props]()
+
+
+## npm packages used
+[react-reveal/Fade]() while scrolling.
+[react-router-dom]()
+[react-scroll]() for active Navbar Links with page scroll
+[react-toastify]()
+[react-typing-effect]()
+[react-slick]() for Carousel
+[react-framer-motion]() for animation 
+[react-icons]()
 
 ## Screenshot
 ![](src/assets/Screenshot.PNG)
