@@ -58,21 +58,33 @@ Inside the directory, react can run several commands:
 ✅ The `Footer` section contains the icon links to the developer's GitHub, Linkedin, and a profile to a third platform.
 
 # Items Used
-[JQuery for `active` buttons. Multiple onClick's on one className]()
-[UseState/UseEffect for portfolio filter, onClick arrows, activeSlide, hamburger with onClick & closeMenu]()
-[Css]() Keyframe Animations on Hero Page Background, Hover:Hover features when in mobile, Hover
-[Props]()
+
+[JQuery for `active` buttons. Multiple onClick's on one className](https://forum.jquery.com/portal/en/community/topic/passing-two-functions-with-click)
+
+[UseState/UseEffect for portfolio filter, onClick arrows, activeSlide, hamburger with onClick & closeMenu](https://react.dev/reference/react/useEffect)
+
+[Css](https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/) Keyframe Animations on Hero Page Background, Hover:Hover features when in mobile, Hover
+
+[Props](https://legacy.reactjs.org/docs/components-and-props.html)
 
 
 ## npm packages used
-[react-reveal/Fade]() while scrolling.
-[react-router-dom]()
-[react-scroll]() for active Navbar Links with page scroll
-[react-toastify]()
-[react-typing-effect]()
-[react-slick]() for Carousel
-[react-framer-motion]() for animation 
-[react-icons]()
+
+[react-reveal/Fade](https://www.react-reveal.com/examples/common/Fade) while scrolling.
+
+[react-router-dom](https://www.npmjs.com/package/react-router-dom)
+
+[react-scroll](https://www.npmjs.com/package/react-scroll) for active Navbar Links with page scroll
+
+[react-toastify](https://www.npmjs.com/package/react-toastify)
+
+[react-typing-effect](https://www.npmjs.com/package/react-typing-effect)
+
+[react-slick](https://www.npmjs.com/package/react-slick) for Carousel
+
+[react-framer-motion](https://www.npmjs.com/package/framer-motion) for animation 
+
+[react-icons](https://react-icons.github.io/react-icons/)
 
 ## Screenshot
 ![](src/assets/Screenshot.PNG)
