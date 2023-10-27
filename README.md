@@ -59,11 +59,11 @@ Inside the directory, react can run several commands:
 
 # Items Used
 
-[JQuery for `active` buttons. Multiple onClick's on one className](https://forum.jquery.com/portal/en/community/topic/passing-two-functions-with-click)
+[JQuery](https://forum.jquery.com/portal/en/community/topic/passing-two-functions-with-click) for `active` buttons. Multiple onClick's on one className
 
-[UseState/UseEffect for portfolio filter, onClick arrows, activeSlide, hamburger with onClick & closeMenu](https://react.dev/reference/react/useEffect)
+[UseState/UseEffect](https://react.dev/reference/react/useEffect) for portfolio filter, onClick arrows, activeSlide, hamburger with onClick & closeMenu
 
-[Css](https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/) Keyframe Animations on Hero Page Background, Hover:Hover features when in mobile, Hover
+[Css](https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/) Keyframe Animations on Hero Page Background, Hover:Hover features when in mobile
 
 [Props](https://legacy.reactjs.org/docs/components-and-props.html)
 
